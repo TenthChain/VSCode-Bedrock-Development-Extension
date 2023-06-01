@@ -1,5 +1,7 @@
 # VSCode-Bedrock-Development-Extension
 
+**The only change is using the UK naming of behaviour**
+
 An extension that provides support for files such as: `.mcfunction`, `.json` and `.lang`. Features include: completion, validations, formatters, diagnostics,
 code-actions, generation of files, and development tools to help develop Minecraft Bedrock Addons or Minecraft Education Edition. It's recommended you use the Dark+ theme for the
 best color highlighting.
@@ -44,7 +46,7 @@ This plugin provides automatic highlighting for Molang code in JSON files.
 
 Automatic JSON validation is applied if the files follow a given pattern for naming or proper file structure.  
 For resource packs, have the files in a folder with the letter `RP` or `rp` in the name, or in the world folder: `resource_packs`.  
-For behavior packs, have the files in a folder with the letter `BP` or `bp` in the name, or in the world folder: `behavior_packs`.
+For behavior packs, have the files in a folder with the letter `BP` or `bp` in the name, or in the world folder: `behaviour_packs`.
 
 [Full list of json validation](https://github.com/Blockception/VSCode-Bedrock-Development-Extension/blob/main/documentation/Json%20Validation.md)
 
