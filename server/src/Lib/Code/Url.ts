@@ -1,7 +1,7 @@
 import { URI } from "vscode-uri";
 
 //Format that vscode sends:
-//file:///f%3A/folder/behavior_packs/temp-bp/blocks/example.block.json
+//file:///f%3A/folder/behaviour_packs/temp-bp/blocks/example.block.json
 
 export namespace Vscode {
   /**

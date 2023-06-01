@@ -19,24 +19,24 @@ describe("Url", () => {
 
     describe("isVscode", () => {
       it("Is not vscode folder", () => {
-        expect(Vscode.isVscode("f:/folder/behavior_packs/temp-bp/blocks/example.block.json")).to.be.false;
+        expect(Vscode.isVscode("f:/folder/behaviour_packs/temp-bp/blocks/example.block.json")).to.be.false;
       });
 
       it("Is vscode folder", () => {
-        expect(Vscode.isVscode("file:///f%3A/folder/behavior_packs/temp-bp/blocks/example.block.json")).to.be.true;
+        expect(Vscode.isVscode("file:///f%3A/folder/behaviour_packs/temp-bp/blocks/example.block.json")).to.be.true;
       });
     });
 
     it("Combine", ()=>{
-      const folder = "file:///f%3A/folder/behavior_packs/";
+      const folder = "file:///f%3A/folder/behaviour_packs/";
       const combined = Vscode.join(folder, "test", "test2", "test3");
-      expect(combined).to.equal("file:///f%3A/folder/behavior_packs/test/test2/test3");
+      expect(combined).to.equal("file:///f%3A/folder/behaviour_packs/test/test2/test3");
     })
 
     it("Combine with slashes", ()=>{
-      const folder = "file:///f%3A/folder/behavior_packs";
+      const folder = "file:///f%3A/folder/behaviour_packs";
       const combined = Vscode.join(folder, "test", "/test2", "/test3");
-      expect(combined).to.equal("file:///f%3A/folder/behavior_packs/test/test2/test3");
+      expect(combined).to.equal("file:///f%3A/folder/behaviour_packs/test/test2/test3");
     })
   });
 });

@@ -18,7 +18,7 @@ export async function create_world_project(ID: string, context: Context, Builder
 
   const NewContext = {
     WorkSpace: () => context.WorkSpace(),
-    BehaviorPack: () => Vscode.join(Folder, "behavior_packs", ID + "-BP"),
+    BehaviorPack: () => Vscode.join(Folder, "behaviour_packs", ID + "-BP"),
     ResourcePack: () => Vscode.join(Folder, "resource_packs", ID + "-RP"),
     WorldFolder: () => Folder,
   };

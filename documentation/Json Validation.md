@@ -26,7 +26,7 @@ reason why not has been given.
 
 | Schema               | When is it applied                                |
 | -------------------- | ------------------------------------------------- |
-| World_behavior_packs | If the file is named: `world_behavior_packs.json` |
+| World_behaviour_packs | If the file is named: `world_behaviour_packs.json` |
 | World_resource_packs | If the file is named: `world_resource_packs.json` |
 
 ---
@@ -61,7 +61,7 @@ For best results, name your folder with the letters RP/rp in them. If the resour
 
 ## Behavior packs
 
-For best results, name your folder with the letters BP/bp in them. If the behavior pack is inside the `behavior_packs` folder inside the world folder it will be identified as well.
+For best results, name your folder with the letters BP/bp in them. If the behavior pack is inside the `behaviour_packs` folder inside the world folder it will be identified as well.
 
 | Schema                | When is it applied                                                                                                                                                                               |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
